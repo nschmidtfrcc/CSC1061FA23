@@ -2,11 +2,7 @@
 #include "saleInfo.h"
 using namespace std;
 
-void SaleInfo::PrintMonthSales() {
-	cout << salesByMonth << endl;
-}//end PrintMonthSales
-
-void SaleInfo::PrintDaySales() {
+void SaleInfo::PrintDayBySales() {
 	cout << "Here are the sales for the day: " << salesByDay << endl;
 }//end PrintDaySales
 
