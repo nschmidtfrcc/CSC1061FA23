@@ -4,14 +4,18 @@ using namespace std;
 
 void SaleInfo::PrintMonthSales() {
 	cout << salesByMonth << endl;
-}
+}//end PrintMonthSales
 
-void printDaySales() {
-	setSalesByDay(int daySales);
+void SaleInfo::PrintDaySales() {
 	cout << "Here are the sales for the day: " << salesByDay << endl;
-}
-void printWeekBySales(int salesByWeek) {
+}//end PrintDaySales
 
-cout << "Sales for this week: " << salesByWeek << endl;
+// ***** Ethan and Gabe *****
+void SaleInfo::PrintWeekBySales() {
+    cout << "Sales for this week: " << salesByWeek << endl;
+}//end PrintWeekBySales
 
-}
+void SaleInfo::PrintMonthBySales() {
+    cout << "Sales for this month: " << salesByMonth << endl;
+}//end PrintMonthBySales
+// ***** Ethan and Gabe *****
