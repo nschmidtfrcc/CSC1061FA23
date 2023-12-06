@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class SaleInfo{
+class SaleInfo {
 
   private:
   int salesByDay;
@@ -12,8 +12,8 @@ class SaleInfo{
   void setSalesByDay(int daySales);
   void setSalesByWeek(int weekSales);
   void setSalesByMonth(int monthSales);
+  void PrintDayBySales();
   void PrintWeekBySales();
   void PrintMonthBySales();
   
-
-};// end Sale
+};// end saleInfo
