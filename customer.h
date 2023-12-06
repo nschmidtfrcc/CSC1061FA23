@@ -28,7 +28,7 @@ public:
 	void PrintEntirCustomerVector();
 	void PrintPotentialCustomerInfo() const;
 	void PrintCustomersWhoBoughtCar() const;
-	int FindCustomerIndex(const string& nameToFind) const;
+	int FindCustomerIndex(const string& nameToFind, const vector<Customer>& vecCustomers) const; // Edited by CM, add vector parameter
 	Customer* FindCustomer(const string& nameToFind) const;
 
 	// Setters and Getters
